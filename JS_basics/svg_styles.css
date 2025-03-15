@@ -1,0 +1,40 @@
+
+#chart circle{fill: lightcoral}
+
+#chart line#total{
+    stroke:green;
+    stroke-width: 3px;
+    opacity: 0.5;
+}
+
+#chart line {
+    stroke: #555555;
+    stroke-width: 2;
+}
+
+#chart rect{
+    stroke: pink;
+    fill: white;
+}
+
+#chart polygon{
+    fill:aqua
+}
+
+#chart {
+    background: #eee;
+    font-family: sans-serif; /* property will pass down */
+}
+
+#chart text{
+    font-size: 16px;
+}
+
+#chart text#title{
+    font-size: 18px;
+}
+
+#chart path{
+    stroke:red;
+    fill:none;
+}

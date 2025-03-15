@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style>
+    .fancy-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <h2 id="title">title holder</h2>
+    <ul id="silly-list">
+        <li id="'item 1"> First Item </li>
+        <li id="'item 2"> Second Item </li>
+    </ul>
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Include D3.js -->
+    <script>
+        d3.select('#title')
+        .classed('fancy-title',true)
+        .text('My Bar Chart');
+    </script>
+    <script>
+        console.log(d3.select('#silly-list').attr('id'));
+    </script>
+</body>
+
