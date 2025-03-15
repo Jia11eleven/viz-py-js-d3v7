@@ -17,18 +17,3 @@ This repository contains my implementation of data visualizations using **Python
 - **Flask API for Data Serving**
 - **GitHub Deployment Ready**
 
-## 🚀 **How to Run**
-
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/dataviz-py-js-d3v7.git
-
-# Navigate to project directory
-cd dataviz-py-js-d3v7
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start the Flask server
-python app.py
-
-# Open index.html in a browser
